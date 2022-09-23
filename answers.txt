@@ -1,0 +1,6 @@
+Q1) You can create a socket by specifying the address family and the transfer protocol and using the .socket() function. You must also use socket.SOCK_stream as an argument to the .socket() function to specify that it is a TCP socket.
+Q2) The server socket responds to the requests from the client. You must bind the server to an address and a port and  listen to incoming connections. On the client socket, it acts as the initiator of the connection. Basically, client socket requests and the server socket services the requests.
+Q3) The socket library has a .setsockopt() function which we can use to let us reuse the same address (set socket.SO_REUSEADDR to true).
+Q4) We get the IP address and the outgoing port of the client.
+Q5) recv() just returns an empty string to signify the end of the message. 
+Q6) https://github.com/DeepakR-Sastry/cmput404lab2
